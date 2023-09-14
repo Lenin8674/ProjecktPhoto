@@ -35,20 +35,20 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(38, 373);
+            this.button1.Location = new System.Drawing.Point(307, 410);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(166, 65);
+            this.button1.Size = new System.Drawing.Size(166, 28);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Открыть Бд";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(38, 26);
+            this.dataGridView1.Location = new System.Drawing.Point(21, -1);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(725, 341);
+            this.dataGridView1.Size = new System.Drawing.Size(767, 405);
             this.dataGridView1.TabIndex = 1;
             // 
             // Form1
