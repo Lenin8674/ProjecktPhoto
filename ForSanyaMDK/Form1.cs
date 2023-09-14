@@ -11,6 +11,7 @@ namespace ForSanyaMDK
         public Form1()
         {
             InitializeComponent();
+            dataGridView1.AllowUserToAddRows = false;
         }
 
         private void LoadDataFromSQLite(int rowCount)
@@ -91,7 +92,7 @@ namespace ForSanyaMDK
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int rowCountToLoad = 5; // количество строк
+            int rowCountToLoad = 1; // количество строк
             LoadDataFromSQLite(rowCountToLoad);
 
             //  Высота строк в DataGridView.
