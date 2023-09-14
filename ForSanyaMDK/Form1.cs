@@ -91,7 +91,7 @@ namespace ForSanyaMDK
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int rowCountToLoad = 4; // количество строк
+            int rowCountToLoad = 5; // количество строк
             LoadDataFromSQLite(rowCountToLoad);
 
             //  Высота строк в DataGridView.
